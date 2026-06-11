@@ -25,11 +25,11 @@ This project maps directly to identity and access support work. It shows how rep
 
 ## Important Note
 
-This script should be reviewed and sanitized before use outside a lab or approved enterprise environment. Public portfolio versions should avoid organization-specific URLs, domains, or internal process references.
+This public portfolio version uses placeholder support URLs instead of organization-specific internal links. Before using it in a real environment, update those placeholders through an approved local configuration process.
 
 ## Suggested Improvements
 
-- Move organization-specific URLs into a local configuration file.
+- Move placeholder support URLs into a local configuration file.
 - Add transcript logging for auditability.
 - Add role/permission checks before write actions.
 - Separate read-only checks from account-changing actions.
