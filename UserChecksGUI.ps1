@@ -414,7 +414,7 @@ $Button4.Text = "(STORE/DC) SSP PW Reset"
 $button4.Location = New-Object System.Drawing.Point(200, 290)
 $button4.Size = New-Object System.Drawing.Size (160, 23)
 $button4.Add_click({
-    $SSPURL = "https://mypassword.ultainc.lcl/PMHelpdesk/"
+    $SSPURL = "https://example.internal/store-password-reset"
 
     Start-Process $SSPURL
 
@@ -430,7 +430,7 @@ $Button5.Text = "iGlam"
 $button5.Location = New-Object System.Drawing.Point(280, 250)
 $button5.Size = New-Object System.Drawing.Size (60, 23)
 $button5.Add_click({
-    $SSPURL = "https://iglam.ultainc.lcl/identitymanager/page.axd?RuntimeFormID=01242e03-44ef-46d1-81a8-49b6f5c82691&aeweb_handler=p&aeweb_rp=&wproj=0&ContextID=VI_Session"
+    $SSPURL = "https://example.internal/identity-management"
 
     Start-Process $SSPURL
 
@@ -557,7 +557,7 @@ $Button8.Text = "(CORP) SSP PW Reset"
 $button8.Location = New-Object System.Drawing.Point(200, 325)
 $button8.Size = New-Object System.Drawing.Size (150, 23)
 $button8.Add_click({
-    $SSPURL = "https://password.ultabeauty.com/PMHelpdesk/"
+    $SSPURL = "https://example.internal/corporate-password-reset"
 
     Start-Process $SSPURL
 
