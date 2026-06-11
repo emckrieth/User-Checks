@@ -18,7 +18,7 @@ Provide a repeatable process for investigating Active Directory account access i
 - Prefer read-only checks before taking account-changing actions.
 - Confirm user identity and ticket authorization before unlocking or resetting passwords.
 - Document any account-changing action in the support ticket.
-- Avoid hardcoding internal URLs or environment-specific values in public scripts.
+- Keep public scripts sanitized by using placeholder URLs or local configuration for environment-specific values.
 
 ## Production Support Skills Represented
 
